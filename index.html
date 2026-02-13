@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    
+    <title>KLINIK KECANTIKAN & ESTETIKA PREMIUM CILEDUG | Aura Aesthetic</title>
+    <meta name="description" content="Klinik Kecantikan & Skincare terbaik di Ciledug, Bintaro, Kebayoran. Ditangani dokter estetika bersertifikat. Solusi wajah glowing, jerawat, botox, & laser.">
+    <meta name="keywords" content="klinik kecantikan ciledug, dokter estetika bintaro, skincare kebayoran, perawatan wajah glowing tangerang, laser nd yag, botox filler terdekat, facial acne, klinik kulit graha raya, jasa website klinik kecantikan">
+    <meta name="author" content="Ciledug Promo Titan System">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+    <link rel="canonical" href="https://aura-aesthetic-ciledug.vercel.app/" />
+
+    <meta name="geo.region" content="ID-BT" />
+    <meta name="geo.placename" content="Tangerang" />
+    <meta name="geo.position" content="-6.2333;106.7333" />
+    <meta name="ICBM" content="-6.2333, 106.7333" />
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aura-aesthetic-ciledug.vercel.app/">
+    <meta property="og:title" content="Aura Aesthetic Clinic - Solusi Wajah Glowing & Sehat">
+    <meta property="og:description" content="Perawatan kulit premium standar medis. Laser, Botox, Filler, & Facial. Booking jadwal konsultasi dokter sekarang.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1616394584738-fc6e612e71c9?q=80&w=1200&auto=format&fit=crop">
+
+    <meta name="google-site-verification" content="GANTI_KODE_VERIFIKASI_ANDA_DISINI" />
+
+    <link rel="preload" as="image" href="https://images.unsplash.com/photo-1616394584738-fc6e612e71c9?q=80&w=1200&auto=format&fit=crop" fetchpriority="high">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Playfair+Display:ital,wght@0,600;0,800;1,600&display=swap" rel="stylesheet">
+
+    <style>
+        /* --- CORE VARIABLES (LUXURY ROSE GOLD THEME) --- */
+        :root {
+            --bg-light: #fffafb; 
+            --text-dark: #212529; /* High contrast dark grey */
+            --text-muted: #495057; /* Contrast passed for accessibility */
+            --rose-gold: #c27ba0; 
+            --rose-dark: #a61e4d; /* For accessible text on light backgrounds */
+            --gold-accent: #d4af37;
+            --glass-bg: rgba(255, 255, 255, 0.85);
+            --glass-border: rgba(194, 123, 160, 0.2);
+        }
+
+        /* --- RESET & BASE --- */
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+        
+        body {
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            font-family: 'Outfit', sans-serif;
+            overflow-x: hidden;
+            min-height: 100vh;
+        }
+
+        h1, h2, h3, h4 { font-family: 'Playfair Display', serif; line-height: 1.2; color: var(--text-dark); }
+        img { width: 100%; display: block; height: auto; object-fit: cover; }
+        section { padding: 90px 20px; max-width: 1200px; margin: 0 auto; position: relative; z-index: 2; }
+        a { text-decoration: none; color: inherit; transition: 0.3s; }
+
+        /* --- UTILITIES & ANIMATIONS --- */
+        .text-rose { color: var(--rose-dark); }
+        .text-italic { font-style: italic; font-weight: 400; color: var(--rose-gold); }
+        
+        .badge {
+            display: inline-block; padding: 8px 20px; border-radius: 50px;
+            background: rgba(194, 123, 160, 0.1); 
+            border: 1px solid var(--rose-gold);
+            color: var(--rose-dark);
+            font-size: 0.75rem; letter-spacing: 2px; margin-bottom: 25px; text-transform: uppercase; font-family: 'Outfit', sans-serif; font-weight: 600;
+        }
+
+        /* SVG ICONS COLOR */
+        .svg-icon { color: var(--rose-gold); margin-bottom: 20px; display: block; }
+
+        /* SHIMMER BUTTON (ELEGANT) */
+        .btn-luxury {
+            display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+            padding: 16px 36px; border-radius: 50px;
+            color: #fff; font-weight: 600; letter-spacing: 1px; font-family: 'Outfit', sans-serif;
+            background: linear-gradient(135deg, #a61e4d 0%, #c27ba0 100%);
+            box-shadow: 0 10px 30px rgba(194, 123, 160, 0.3);
+            border: none; cursor: pointer; transition: all 0.4s ease;
+        }
+        .btn-luxury:hover { transform: translateY(-3px); box-shadow: 0 15px 40px rgba(166, 30, 77, 0.4); }
+
+        .btn-outline {
+            background: transparent; color: var(--rose-dark);
+            border: 2px solid var(--rose-gold); box-shadow: none;
+        }
+        .btn-outline:hover { background: var(--rose-gold); color: #fff; }
+
+        /* --- HERO SECTION --- */
+        .hero {
+            min-height: 95vh; display: flex; align-items: center; justify-content: center;
+            text-align: center; position: relative; padding-top: 100px;
+        }
+        .hero-bg {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;
+            background: url('https://images.unsplash.com/photo-1616394584738-fc6e612e71c9?q=80&w=1200&auto=format&fit=crop') center/cover no-repeat;
+        }
+        .hero-overlay {
+            position: absolute; top:0; left:0; width:100%; height:100%; z-index: -1;
+            background: linear-gradient(to bottom, rgba(255,250,251,0.85) 0%, rgba(255,250,251,0.95) 100%);
+        }
+        .hero-title { font-size: 4.5rem; margin-bottom: 20px; font-weight: 800; color: var(--text-dark); letter-spacing: -1px; }
+        .hero-desc { font-size: 1.15rem; color: var(--text-muted); margin-bottom: 40px; max-width: 650px; margin-left: auto; margin-right: auto; line-height: 1.8; }
+
+        .stats-glass {
+            display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
+            margin-top: 60px; padding: 30px; border-radius: 24px;
+            background: var(--glass-bg); border: 1px solid var(--glass-border);
+            backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.03);
+        }
+
+        /* --- ELEGANT BENTO GRID (SERVICES) --- */
+        .bento-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px; margin-top: 50px;
+        }
+        .bento-item {
+            background: #fff; border-radius: 24px; padding: 40px 30px;
+            border: 1px solid rgba(0,0,0,0.04); transition: all 0.4s ease;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.02); text-align: center;
+        }
+        .bento-item:hover {
+            transform: translateY(-10px); border-color: var(--rose-gold);
+            box-shadow: 0 20px 40px rgba(194, 123, 160, 0.15);
+        }
+        .bento-item h3 { font-size: 1.8rem; margin-bottom: 15px; }
+        .bento-item p { color: var(--text-muted); line-height: 1.6; }
+
+        /* --- TRUST & DOCTOR SECTION --- */
+        .doctor-card {
+            display: flex; align-items: center; gap: 40px; background: #fff;
+            padding: 40px; border-radius: 30px; border: 1px solid var(--glass-border);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.03);
+        }
+        .doctor-img { width: 250px; height: 250px; border-radius: 50%; object-fit: cover; border: 5px solid #fff; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+
+        /* --- MAPS & FOOTER --- */
+        .map-wrapper {
+            position: relative; border-radius: 30px; overflow: hidden; margin-top: 40px;
+            border: 1px solid var(--glass-border); aspect-ratio: 21/9;
+        }
+        .map-overlay {
+            position: absolute; inset: 0; background: rgba(255, 250, 251, 0.3);
+            display: flex; align-items: center; justify-content: center;
+            opacity: 0; transition: opacity 0.3s; backdrop-filter: blur(5px);
+        }
+        .map-wrapper:hover .map-overlay { opacity: 1; }
+        
+        .seo-hidden {
+            width: 100%; height: 1px; overflow: hidden; opacity: 0.01; position: relative; margin-top: 20px;
+            font-size: 10px; color: transparent;
+        }
+
+        footer { text-align: center; padding: 80px 20px 40px; margin-top: 60px; border-top: 1px solid rgba(0,0,0,0.05); }
+        .footer-links a { color: var(--text-muted); margin: 0 15px; font-size: 0.9rem; font-weight: 400; font-family: 'Outfit', sans-serif;}
+        .footer-links a:hover { color: var(--rose-dark); }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .hero-title { font-size: 3.2rem; }
+            .stats-glass { grid-template-columns: 1fr; gap: 20px; }
+            .doctor-card { flex-direction: column; text-align: center; padding: 30px 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="badge">✨ CLINIC VIP CILEDUG - BINTARO</span>
+            <h1 class="hero-title">Wajah Sehat & <span class="text-rose text-italic">Glowing</span><br>Sempurna.</h1>
+            <p class="hero-desc">Tingkatkan rasa percaya diri Anda dengan perawatan kulit berstandar medis. Ditangani langsung oleh Dokter Estetika bersertifikat profesional.</p>
+            
+            <div style="display:flex; flex-wrap:wrap; gap:20px; justify-content:center; margin-top:40px;">
+                <a href="https://wa.me/6285283212205?text=Halo%20Admin%20Klinik,%20Saya%20Mau%20Reservasi%20Jadwal%20Dokter" class="btn-luxury" aria-label="Reservasi Jadwal Konsultasi">
+                    RESERVASI SEKARANG
+                </a>
+                 <a href="#treatment" class="btn-luxury btn-outline" aria-label="Lihat Daftar Perawatan">
+                    LIHAT TREATMENT
+                </a>
+            </div>
+
+            <div class="stats-glass">
+                <div><div class="text-rose" style="font-family:'Playfair Display'; font-size:2.5rem; font-weight:800;">10k+</div><p style="font-size:0.85rem; color:var(--text-muted); letter-spacing:1px; margin-top:5px;">PASIEN PUAS</p></div>
+                <div><div class="text-rose" style="font-family:'Playfair Display'; font-size:2.5rem; font-weight:800;">100%</div><p style="font-size:0.85rem; color:var(--text-muted); letter-spacing:1px; margin-top:5px;">STANDAR MEDIS</p></div>
+                <div><div class="text-rose" style="font-family:'Playfair Display'; font-size:2.5rem; font-weight:800;">Sp.KK</div><p style="font-size:0.85rem; color:var(--text-muted); letter-spacing:1px; margin-top:5px;">DOKTER SPESIALIS</p></div>
+            </div>
+        </div>
+    </header>
+
+    <section id="treatment">
+        <div style="text-align:center; margin-bottom:60px;">
+            <span class="badge">SIGNATURE TREATMENTS</span>
+            <h2 style="font-size:3.5rem; margin-bottom:15px;">Perawatan <span class="text-rose text-italic">Premium</span></h2>
+            <p style="color:var(--text-muted); font-size:1.1rem;">Solusi komprehensif untuk setiap permasalahan kulit Anda.</p>
+        </div>
+
+        <div class="bento-grid">
+            <div class="bento-item">
+                <svg class="svg-icon" style="margin:0 auto 20px;" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                <h3>Laser Rejuvenation</h3>
+                <p>Teknologi Laser ND Yag & Pico untuk memudarkan flek hitam, melasma, dan mencerahkan kulit secara instan tanpa downtime.</p>
+            </div>
+
+            <div class="bento-item">
+                <svg class="svg-icon" style="margin:0 auto 20px;" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+                <h3>Botox & Filler</h3>
+                <p>Kembalikan keremajaan kulit Anda. Mengurangi kerutan halus dan membentuk kontur wajah proporsional (V-Shape).</p>
+            </div>
+
+            <div class="bento-item">
+                <svg class="svg-icon" style="margin:0 auto 20px;" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M8 14s1.5 2 4 2 4-2 4-2"></path><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="9" x2="15.01" y2="9"></line></svg>
+                <h3>Premium Facial</h3>
+                <p>Pembersihan mendalam, ekstraksi komedo tanpa rasa sakit, diakhiri dengan masker emas untuk nutrisi maksimal.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="doctor-card">
+            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=600&auto=format&fit=crop" alt="Dokter Spesialis Kulit Ciledug" class="doctor-img" loading="lazy" width="250" height="250">
+            <div>
+                <span class="badge" style="background:var(--gold-accent); color:#fff; border:none;">MEDICAL EXPERT</span>
+                <h2 style="font-size:2.8rem; margin-bottom:10px;">Ditangani oleh <span class="text-rose text-italic">Ahlinya.</span></h2>
+                <p style="color:var(--text-muted); font-size:1.1rem; line-height:1.7; margin-bottom:20px;">
+                    Jangan pertaruhkan wajah Anda pada klinik abal-abal. Di Aura Aesthetic, seluruh tindakan medis (injeksi, laser, peeling) dilakukan langsung oleh dokter bersertifikat, higienis, dan menggunakan produk yang terdaftar resmi di BPOM.
+                </p>
+                <div style="font-family:'Playfair Display'; font-size:1.5rem; color:var(--text-dark); font-weight:600;">
+                    Dr. Sarah Maharani, Dipl. AAAM
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div style="text-align:center;">
+            <h2 style="font-size:3rem; margin-bottom:10px;">Kunjungi <span class="text-rose text-italic">Klinik Kami</span></h2>
+            <p style="color:var(--text-muted); font-size:1.1rem;">Berlokasi strategis di pusat kota. Melayani area Ciledug, Bintaro, dan Kebayoran.</p>
+        </div>
+        
+        <a href="https://maps.app.goo.gl/GQYZdgZ3VgUxh9eb7" target="_blank" rel="noopener noreferrer" aria-label="Buka Rute Maps Ke Klinik">
+            <div class="map-wrapper">
+                <img src="peta-lokasi.png" alt="Peta Lokasi Klinik Kecantikan Ciledug" loading="lazy" width="1200" height="514" style="width:100%; height:100%; object-fit:cover;">
+                <div class="map-overlay">
+                    <button class="btn-luxury" style="padding: 12px 25px; font-size:0.9rem;" aria-label="Buka Peta Google">
+                        📍 BUKA DI GOOGLE MAPS
+                    </button>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <footer>
+        <h2 style="font-family:'Playfair Display'; font-weight:800; font-size:2.5rem; margin-bottom:20px; color:var(--text-dark);">Aura Aesthetic</h2>
+        
+        <div class="footer-links">
+            <a href="https://ciledugpromo.biz.id" target="_blank">Home Portal</a> •
+            <a href="https://ciledugpromo.biz.id/produk/11891/jasa-website-klinik-kecantikan-estetika-premium-seo-ciledug-bintaro" target="_blank">Jasa Website Klinik</a> •
+            <a href="https://titan-legacy.vercel.app" target="_blank">Titan Legacy</a>
+        </div>
+        
+        <p style="color:#adb5bd; font-size:0.9rem; margin-top:40px; font-family:'Outfit';">
+            © 2026 Powered by Ciledug Promo Titan System. All Rights Reserved.
+        </p>
+
+        <div class="seo-hidden">
+            Aura Aesthetic adalah contoh / demo landing page premium untuk klinik kecantikan, klinik estetika, dan pusat perawatan kulit (skincare) di wilayah Ciledug Raya, Bintaro, Kebayoran, dan Graha Raya.
+            Jika Anda adalah owner klinik yang mencari jasa pembuatan website klinik kecantikan elegan, jasa web dokter kulit, spesialis botox filler Tangerang Selatan, hubungi Ciledug Promo.
+            Kami membantu klinik Anda mendominasi pencarian lokal untuk kata kunci: facial glowing terdekat, klinik jerawat ampuh, laser wajah murah berkualitas, tarik benang hidung, rekomendasi dokter estetika bersertifikat.
+            Tingkatkan trust dan brand image bisnis beauty & wellness Anda dengan website SEO tingkat dewa.
+        </div>
+    </footer>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalClinic",
+      "name": "Aura Aesthetic Clinic Ciledug",
+      "image": "https://images.unsplash.com/photo-1616394584738-fc6e612e71c9",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jalur Sutra Emas Ciledug Raya",
+        "addressLocality": "Tangerang dan Bintaro",
+        "addressRegion": "Banten - DKI Jakarta",
+        "postalCode": "15156",
+        "addressCountry": "ID"
+      },
+      "areaServed": [
+        "Ciledug",
+        "Bintaro Sektor 7",
+        "Bintaro Sektor 9",
+        "Kebayoran Baru",
+        "Graha Raya",
+        "Larangan Indah"
+      ],
+      "telephone": "+6285283212205",
+      "url": "https://aura-aesthetic-ciledug.vercel.app", 
+      "medicalSpecialty": "Dermatology",
+      "parentOrganization": {
+        "@type": "LocalBusiness",
+        "name": "Ciledug Promo Digital Agency",
+        "url": "https://ciledugpromo.biz.id"
+      }
+    }
+    </script>
+
+</body>
+</html>
